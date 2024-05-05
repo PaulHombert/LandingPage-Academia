@@ -1,0 +1,158 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fundo de Tela */
+html {
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    color: #fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+body {
+    background:linear-gradient(rgba(17, 17, 17, 0.596), rgba(20, 20, 20, 0.767)),url(img/pexels-cesar-galeao-1673528-3253501.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 30%;
+    background-repeat: no-repeat;
+}
+
+/* Menu - Header - Navbar */
+
+header {
+margin: 2px;
+width: 97%;
+height: 13vh;
+background: rgba(22, 22, 22, 0.055);
+}
+
+.menu-content{
+    text-transform: uppercase;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+.menu-content h1 {
+    margin-left: 10px;
+    margin-top: 15px;
+    border: 1px solid #fff;
+    padding: 4px;
+}
+
+.menu-content h1:hover {
+    border-bottom: 3px 3px solid green;
+}
+
+.logo {
+    font: 18px;
+    letter-spacing: 0.4rem;
+    cursor: pointer;
+}
+
+.menu-content .list-itens {
+    display: flex;
+    list-style: none;
+    gap: 5px;
+}
+
+.menu-content .list-itens a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    transform: 2ms ease-in;
+    position: relative;
+}
+
+.menu-content .list-itens a:before {
+    content: ' ';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+    height: 2px;
+    background-color: rgb(249, 177, 236);
+    transition: all 1.5s ease;
+}
+
+.menu-content .list-itens a:hover:before{
+    width: 100%;
+}
+
+/*  Main*/
+
+main {
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  Text  */
+.primary-text {
+    width: 850px;
+    font-size: 40px;
+    margin-bottom: 70px;
+    text-align: center;
+    color: #fff;
+}
+
+.second-text {
+    border-radius: 20px;
+    margin-bottom: 100px;
+    font-size: 20px;
+    color:white;
+    text-transform: uppercase;
+}
+
+/* Botões */
+
+.btns {
+display: flex;
+justify-content: center;
+gap: 20px;
+}
+
+.btns button {
+    width: 250px;
+    height: 60px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform:uppercase ;
+    background-color: transparent;
+    font-weight: bold;
+    letter-spacing:0.2rem ;
+    border-radius: 20px;
+    position: relative;
+    transition: 1s;
+}
+
+.btns button:hover {
+    color: rgb(255, 193, 244);
+    border: none;
+    font-size: 17px;
+}
+
+
+
+
+ 
+
+
+
+
